@@ -1,6 +1,7 @@
 * {
     padding: 0;
 margin: 0;
+box-sizing: border-box;
 }
 
 a {
@@ -18,8 +19,10 @@ li {
 }
 
 body{
-    background: url(./img/Background.svg);
+    background: url(./img/back_gif);
     box-sizing: border-box;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 header {
     background: #002b51;
@@ -52,13 +55,41 @@ ul{
     margin-right: 80px;
 
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 80px;
-    margin-right: 80px;
+p {
+  color: black;
+}
 
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
+main .main-shop p {
+  text-align: center;
+  font-size: 35px;
+  border-top: 3px solid black;
+  padding-top: 20px;
+}
+
+.main-shop {
+  background: rgba(312, 331, 321, 0.7);
+  border-radius: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 120px;
+  color: black;
+}
+
+.main-shop img {
+  background-color: rgba(red, green, blue, alpha);
+  margin-bottom: 20px;
+}
+
+.main-shop a {
+  background-color: rgba(red, green, blue, alpha);
 }
 .footer {
     position: relative;
@@ -72,6 +103,7 @@ ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  
   }
   
   .social-icon,
@@ -137,28 +169,28 @@ ul{
     z-index: 1000;
     opacity: 1;
     bottom: 0;
-    animation: animateWaves 4s linear infinite;
+    animation: animateWaves 7s linear infinite;
   }
   
   .wave#wave2 {
     z-index: 999;
     opacity: 0.5;
     bottom: 10px;
-    animation: animate 4s linear infinite !important;
+    animation: animate 7s linear infinite !important;
   }
   
   .wave#wave3 {
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
-    animation: animateWaves 3s linear infinite;
+    animation: animateWaves 6s linear infinite;
   }
   
   .wave#wave4 {
     z-index: 999;
     opacity: 0.7;
     bottom: 20px;
-    animation: animate 3s linear infinite;
+    animation: animate 6s linear infinite;
   }
   
   @keyframes animateWaves {
