@@ -51,10 +51,11 @@ header ul {
     margin-right: 25px;
 }
 
-header .left_side{
+header .left_side li {
     display: flex;
     justify-content: start;
-    margin-right: 15px;
+    padding-left: 25px;
+
 }
 
 header .rigth_side {
