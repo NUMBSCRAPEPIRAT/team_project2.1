@@ -54,6 +54,7 @@ header ul {
 header .left_side{
     display: flex;
     justify-content: start;
+    margin-right: 15px;
 }
 
 header .rigth_side {
