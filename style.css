@@ -108,6 +108,7 @@ main .main-shop p {
 .footer {
     position: relative;
     width: 100%;
+    height: 100%;
     background: #002b51;
     background: -webkit-linear-gradient(0deg, #002b51 0%, #1a0051 100%);
     background: linear-gradient(0deg, #002b51 0%, #1a0051 100%);
