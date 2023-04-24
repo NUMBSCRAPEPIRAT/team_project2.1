@@ -10,7 +10,7 @@ a {
 
 .left_side {
     display: flex;
-padding-right: 15px;
+    margin-left: -40px;
 }
 
 li {
@@ -41,7 +41,7 @@ header {
     background: -webkit-linear-gradient(0deg, #002b51 0%, #1a0051 100%);
     background: linear-gradient(0deg, #002b51 0%, #1a0051 100%);
     margin-bottom: 65px;
-    
+    width: 100%;
 }
 
 header ul {
@@ -225,4 +225,3 @@ main .main-shop p {
       background-positon-x: 0px;
     }
   }
-
