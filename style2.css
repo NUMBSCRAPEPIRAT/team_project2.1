@@ -131,24 +131,24 @@ h1 {
     margin-right: 15px;
 }
 
-footer h1 {
+.down h1 {
     font-size: 34px;
     color: black    ;
 }
 
 
-footer p {
+.down p {
     color: black    ;
 }
 
-footer ul {
+.down ul {
     display: flex;
     justify-content: space-around;
     font-size: 25px;
     margin-top: 33px;
 }
 
-footer {
+.down {
     display: flex;
     max-width: 100%;
     width: auto;
@@ -160,7 +160,7 @@ footer {
     border-radius: 58px;
 }
 
-footer .popular p {
+.down .popular p {
     font-size: 34px;
     padding-right: 50px;
 }
