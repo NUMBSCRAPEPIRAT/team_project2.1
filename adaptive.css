@@ -63,3 +63,35 @@
         background: linear-gradient(0deg, #002b51 0%, #1a0051 100%);
     }
 }
+
+@media only screen and (max-width: 400px){
+    .header {
+        background: #002b51;
+        background: -webkit-linear-gradient(0deg, #002b51 0%, #1a0051 100%);
+        background: linear-gradient(0deg, #002b51 0%, #1a0051 100%);
+        margin-bottom: 65px;
+        width: 200px;
+    }
+
+    .main {
+        background:
+        repeating-linear-gradient( 45deg,#0000 calc(-650%/13) calc(50%/13),#002240 0 calc(100%/13),
+        #0000 0 calc(150%/13),#002240 0 calc(200%/13),
+        #0000 0 calc(250%/13),#002240 0 calc(300%/13)),repeating-linear-gradient( 45deg,#0000 calc(-650%/13) calc(50%/13),#002240 0 calc(100%/13),
+        #0000 0 calc(150%/13),#002240 0 calc(200%/13),
+        #0000 0 calc(250%/13),#002240 0 calc(300%/13)) 18px 18px,
+        repeating-linear-gradient(-45deg,#0000 calc(-650%/13) calc(50%/13),#002240 0 calc(100%/13),
+        #0000 0 calc(150%/13),#002240 0 calc(200%/13),
+        #0000 0 calc(250%/13),#002240 0 calc(300%/13)),repeating-linear-gradient(-45deg,#0000 calc(-650%/13) calc(50%/13),#002240 0 calc(100%/13),
+        #0000 0 calc(150%/13),#002240 0 calc(200%/13),
+        #0000 0 calc(250%/13),#002240 0 calc(300%/13)) 18px 18px #0a0021;
+        width: 60px;
+    }
+
+    .footer {
+        width: auto;
+        background: #002b51;
+        background: -webkit-linear-gradient(0deg, #002b51 0%, #1a0051 100%);
+        background: linear-gradient(0deg, #002b51 0%, #1a0051 100%);
+    }
+}
