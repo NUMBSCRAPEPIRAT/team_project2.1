@@ -107,6 +107,32 @@ h1 {
 
 }
 
+.social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
 .main-right {
     display: flex;
     flex-direction: column;
@@ -161,17 +187,37 @@ h1 {
 }
 
 .down .popular p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 34px;
-    padding-right: 50px;
+    margin-right: 29px;
+    width: 49px;
+    height: 49px;
+    background-color: aliceblue;
+    border-radius: 30px;
 }
 
 .popular {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
+    align-items: center;
 }
 
 .text-help {
     text-align: center;
     margin-top: 69px;
     font-size: 30px;
+    margin-bottom: 70px;
+}
+
+#question-first-line {
+    margin-bottom: 13px;
+}
+
+.questions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
