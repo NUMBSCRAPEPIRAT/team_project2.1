@@ -24,7 +24,6 @@ body {
 
 header {
   background: white;
-  margin-bottom: 65px;
   padding-top: 64px;
   padding-bottom: 80px;
   width: 100%;
@@ -35,6 +34,11 @@ header {
   display: flex;
   margin-left: 598px;
 
+}
+
+.header_icon{
+  display: flex;
+  margin-right: 324px;
 }
 
 span {
