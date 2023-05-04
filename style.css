@@ -29,16 +29,20 @@ header {
   width: 100%;
 }
 
+.wrapper{
+  display: flex;
+}
 
 .header_text {
-  display: flex;
+  display: inline-block;
   margin-left: 598px;
 
 }
 
 .header_icon{
-  display: flex;
+  display: inline-block;
   margin-right: 324px;
+  align-items: flex-end;
 }
 
 span {
