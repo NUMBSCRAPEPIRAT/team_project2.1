@@ -111,6 +111,7 @@ container_1 p{
   margin-right: 55px;
 }
 
-.cont_img arrows{
-
+.cont_img .arrows{
+position: absolute;
+padding: 625px;
 }
