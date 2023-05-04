@@ -41,7 +41,7 @@ header {
 
 .header_icon{
   display: inline-block;
-  margin-right: 324px;
+  padding-left: 158px;
   align-items: flex-end;
 }
 
@@ -68,12 +68,11 @@ main {
 main .main-shop p {
   text-align: center;
   font-size: 35px;
-  border-top: 3px solid black;
+
   padding-top: 20px;
 }
 
 .main-shop {
-  background: rgba(312, 331, 321, 0.6);
   border-radius: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -83,11 +82,35 @@ main .main-shop p {
   color: black;
 }
 
-.main-shop img {
-  background-color: rgba(red, green, blue, alpha);
-  margin-bottom: 20px;
+
+#p1_main{
+  border-bottom: 1px solid black;
+  border-bottom-color:#87888C;
+  color:#87888C;
 }
 
-.main-shop a {
-  background-color: rgba(red, green, blue, alpha);
+#p2_main{
+  border-bottom: 1px solid black;
+  border-bottom-color:#87888C;
+  color:#87888C;
+}
+container_1 p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 97px;
+}
+.cont_img{
+  display: flex;
+  justify-content:center ;
+  margin-bottom: 30px;
+}
+
+.cont_img a{
+  margin-right: 55px;
+}
+
+.cont_img arrows{
+
 }
