@@ -104,6 +104,7 @@ container_1 p{
   margin-bottom: 97px;
 }
 .cont_img{
+  width: 100%;
   display: flex;
   justify-content:center ;
   margin-bottom: 30px;
@@ -117,7 +118,18 @@ container_1 p{
     align-items: center;
     text-align: center;
     color: black;
+    margin-bottom: 33px;
 }
+
+
+
+
+.cont_img a h3 p{
+  font-size: 17px;
+}
+
+
+
 
 container_2 p{
   text-align: center;
