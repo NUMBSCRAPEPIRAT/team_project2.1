@@ -94,6 +94,7 @@ main .main-shop p {
   border-bottom-color:#87888C;
   color:#87888C;
 }
+
 container_1 p{
   text-align: center;
   font-weight: 400;
@@ -105,13 +106,26 @@ container_1 p{
   display: flex;
   justify-content:center ;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .cont_img a{
   margin-right: 55px;
 }
+container_2 p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 97px;
+}
+.cont_img2{
+  display: flex;
+  justify-content:center ;
+  margin-bottom: 30px;
+  align-items: center;
+}
 
-.cont_img .arrows{
-position: absolute;
-padding: 625px;
+.cont_img2 a{
+  margin-right: 55px;
 }
