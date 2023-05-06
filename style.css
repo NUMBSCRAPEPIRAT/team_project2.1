@@ -172,6 +172,7 @@ container_3 p{
   padding-top: 110px;
 }
 .cont_img3{
+  width: 100%;
   display: flex;
   justify-content:center ;
   margin-bottom: 30px;
@@ -185,6 +186,14 @@ container_3 p{
     align-items: center;
     text-align: center;
     color: black;
+    margin-bottom: 33px;
+}
+
+
+
+
+.cont_img3 a h3 p{
+  font-size: 17px;
 }
 
 container_4 p{
