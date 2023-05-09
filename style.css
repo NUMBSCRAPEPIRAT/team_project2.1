@@ -265,3 +265,34 @@ container_4 p{
   grid-row-start: 6;
   grid-row-end: 9;
 }
+
+.container {
+  border: 1px solid black;
+  margin: 295px auto 0;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.block {
+  width: 485px;
+}
+.block + .block {
+  margin-left: 228px;
+}
+h1 {
+  font-size: 24px;
+  padding-bottom: 25px;
+}
+p {
+  font-size: 18px;
+  padding-bottom: 56px;
+}
+button {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
