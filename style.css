@@ -266,33 +266,65 @@ container_4 p{
   grid-row-end: 9;
 }
 
-.container {
-  border: 1px solid black;
-  margin: 295px auto 0;
-  width: 1000px;
+.wrapper {
+  margin: 595px auto 0;
+  padding: 0 114px;
   display: flex;
   justify-content: space-between;
 }
-.block {
-  width: 485px;
+
+.left-col,
+.right-col {
+  width: calc(50% - 114px);
 }
-.block + .block {
+
+.left-col {
+  margin-right: 228px;
+}
+
+.right-col {
   margin-left: 228px;
 }
+
+.info{
+  background-color: gray;
+}
+
+.wrapper{
+background-color: #E8E8E8;
+}
+
 h1 {
   font-size: 24px;
-  padding-bottom: 25px;
+  font-weight: bold;
+  margin-bottom: 16px;
 }
+
 p {
-  font-size: 18px;
-  padding-bottom: 56px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 24px;
 }
+
 button {
   background-color: orange;
   color: white;
-  padding: 10px;
   border: none;
-  border-radius: 5px;
-  font-size: 18px;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 16px;
   cursor: pointer;
+}
+
+.input-field {
+  margin-bottom: 24px;
+  margin-right: 60px;
+}
+
+input {
+  width: 50%;
+
+  font-size: 16px;
+  border: 2px solid orange;
+  border-radius: 4px;
 }
