@@ -22,7 +22,7 @@ body {
   width: 100%;
 }
 
-header {
+.header {
   background: white;
   padding-top: 64px;
   padding-bottom: 80px;
@@ -266,32 +266,30 @@ container_4 p{
   grid-row-end: 9;
 }
 
-.wrapper {
-  margin: 595px auto 0;
-  padding: 0 114px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-col,
-.right-col {
-  width: calc(50% - 114px);
-}
-
-.left-col {
-  margin-right: 228px;
-}
-
-.right-col {
-  margin-left: 228px;
-}
-
 .info{
   background-color: gray;
 }
 
-.wrapper{
-background-color: #E8E8E8;
+
+
+.block {
+  padding: 0 114px;
+  padding-top: 55px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #E8E8E8;
+}
+
+
+
+.left-col {
+  margin-right: 228px;
+
+}
+
+.right-col {
+  margin-left: 228px;
+
 }
 
 h1 {
@@ -327,4 +325,9 @@ input {
   font-size: 16px;
   border: 2px solid orange;
   border-radius: 4px;
+}
+
+.text{
+  background: #E8E8E8;
+
 }
