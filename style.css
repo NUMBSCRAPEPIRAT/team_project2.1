@@ -347,7 +347,8 @@ ul{
 }
 .footer{
 	background-color: white;
-    padding: 70px 0;
+    padding: 26px ;
+
 }
 .footer-col{
    width: 25%;
@@ -360,21 +361,21 @@ ul{
 	margin-bottom: 35px;
 	font-weight: 500;
 	position: relative;
-  padding-right: 15px;
+  padding-left: 35px;
+
 }
 
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+.footer-col ul{
+  padding-right: 50px;
 }
+
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
 	color: #333333;
-	text-decoration: none;
 	font-weight: 300;
 	color: #333333;
 	display: block;
-	transition: all 0.3s ease;
 }
 
 .footer-col .social-links a{
